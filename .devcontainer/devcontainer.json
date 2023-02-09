@@ -18,7 +18,8 @@
 		"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
 		"ghcr.io/devcontainers-contrib/features/yamllint:2": {},
 		"ghcr.io/devcontainers/features/rust:1": {},
-		"ghcr.io/rocker-org/devcontainer-features/r-apt:0": {}
+		"ghcr.io/rocker-org/devcontainer-features/r-apt:0": {},
+		"ghcr.io/devcontainers-contrib/features/groovy-sdkman:2": {}
 
 	  },
 

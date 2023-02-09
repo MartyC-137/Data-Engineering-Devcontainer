@@ -32,7 +32,7 @@ $ git clone https://github.com/MartyC-137/DataEng_devcontainer
 5. Start developing!
 
 
-## Included Tools:
+## Included VS Code Extensions:
 
 * `Snowflake Extension for VS Code`
 * `Jupyter Notebooks for VS Code`
@@ -42,7 +42,7 @@ $ git clone https://github.com/MartyC-137/DataEng_devcontainer
 * `Material Icon Theme`
 * `Docker`
 
-## Programming Languages: 
+## Included Languages: 
 
 * `Python`, with the following packages:
     - `Snowpark` for Snowflake
@@ -54,6 +54,7 @@ $ git clone https://github.com/MartyC-137/DataEng_devcontainer
 * `R`
 * `Scala`
 * `Rust`
+* `Groovy`
 
 ## Customization
 Feel free to modify the `Dockerfile`, `devcontainer.json` or `requirements.txt` file to include any other tools or packages that you need for your development environment.

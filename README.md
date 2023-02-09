@@ -1,4 +1,4 @@
-# DataEng_devcontainer
+# A development environment for data engineers
 A devcontainer for Data Engineers that sets up a development environment with tools such as Python, Jupyter Notebooks for VS Code, the Snowflake extension for VS Code, and the SQL Server extension. This can be used with both VS Code and GitHub Codespaces.
 
 ## Getting Started

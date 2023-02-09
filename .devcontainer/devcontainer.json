@@ -42,14 +42,15 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-				"snowflake.snowflake-vsc", // Snowflake extension for VS Code
-				"ms-toolsai.jupyter", // Jupyter Notebooks
-				"ms-mssql.mssql", // SQL Server
+				"snowflake.snowflake-vsc",
+				"ms-toolsai.jupyter",
+				"ms-mssql.mssql",
 				"github.vscode-pull-request-github",
-				"github.github-vscode-theme", //The best VS Code theme :-)
+				"github.github-vscode-theme",
 				"ms-azuretools.vscode-docker",
 				"streetsidesoftware.code-spell-checker",
-				"4ops.terraform" //Terraform
+				"4ops.terraform",
+				"PKief.material-icon-theme"
 			]
 		}
 	},

@@ -1,0 +1,63 @@
+{
+	"name": "Python 3",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+		"args": { 
+			"VARIANT": "3.8-bullseye",
+			"NODE_VERSION": "lts/*"
+		}
+	},
+
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {},
+		"ghcr.io/devcontainers-contrib/features/scala-sdkman:2": {},
+		"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
+		"ghcr.io/devcontainers-contrib/features/yamllint:2": {},
+		"ghcr.io/devcontainers/features/rust:1": {},
+		"ghcr.io/rocker-org/devcontainer-features/r-apt:0": {}
+
+	  },
+
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true,
+				"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+				"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+				"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
+				"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+				"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
+				"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+				"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
+				"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+				"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+			},
+
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"snowflake.snowflake-vsc", // Snowflake extension for VS Code
+				"ms-toolsai.jupyter", // Jupyter Notebooks
+				"ms-mssql.mssql", // SQL Server
+				"github.vscode-pull-request-github",
+				"github.github-vscode-theme", //The best VS Code theme :-)
+				"ms-azuretools.vscode-docker",
+				"streetsidesoftware.code-spell-checker",
+				"4ops.terraform" //Terraform
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+	
+	"remoteUser": "vscode"
+}

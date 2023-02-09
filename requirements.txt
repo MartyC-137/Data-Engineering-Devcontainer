@@ -1,0 +1,6 @@
+pandas
+polars
+plotly
+snowflake-snowpark-python
+SQLalchemy
+ipykernel

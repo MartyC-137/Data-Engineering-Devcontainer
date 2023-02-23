@@ -86,7 +86,7 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-mssql.mssql",
-				"snowflake.snowflake-vsc"
+				"snowflake.snowflake-vsc",
 				"golang.go",
 				"ms-vscode.powershell",
 				"ms-python.python",
@@ -103,7 +103,7 @@
 				"akamud.vscode-theme-onedark",
 				"PKief.material-icon-theme",
 				"GitHub.github-vscode-theme",
-				"actboy168.tasks",
+				"actboy168.tasks"
 			]
 		}
 	},

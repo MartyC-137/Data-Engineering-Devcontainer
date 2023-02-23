@@ -1,5 +1,5 @@
 # A development environment for data engineers
-A devcontainer for Data Engineers that sets up a development environment with tools such as Python, Jupyter Notebooks for VS Code, the Snowflake extension for VS Code, and the SQL Server extension. This can be used with both VS Code and GitHub Codespaces.
+A devcontainer for Data Engineers that sets up a development environment with tools such as Python, Terraform, dbt, Jupyter Notebooks for VS Code, the Snowflake extension for VS Code, and the SQL Server extension. This can be used with both VS Code and GitHub Codespaces.
 
 ## Getting Started
 To continue, make sure you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed OR use GitHub Codespaces.
@@ -32,29 +32,27 @@ $ git clone https://github.com/MartyC-137/DataEng_devcontainer
 5. Start developing!
 
 
-## Included VS Code Extensions:
+## Included Tools and Languages:
 
-* `Snowflake Extension for VS Code`
-* `Jupyter Notebooks for VS Code`
-* `MS SQL Server`
+* `Python 3.9`
+  - `Pandas`
+  - `SQLAlchemy`
+  - `PySpark`
+  - `PyArrow`
+  - `Polars`
+  - `Prefect 2.7.7` and all required Python dependencies
+  - `confluent-kafka`
+* `Google Cloud SDK`
+* `dbt-core`
+  - `dbt-postgres`
+  - `dbt-bigquery`
 * `Terraform`
-* `GitHub VS Code Theme`
-* `Material Icon Theme`
+* `Jupyter Notebooks for VS Code`
 * `Docker`
-
-## Included Languages: 
-
-* `Python`, with the following packages:
-    - `Snowpark` for Snowflake
-    - `Pandas`
-    - `Polars`
-    - `Plotly`
-    - `SQLAlchemy`
-    - `ipykernel` (for Jupyter Notebooks)
-* `R`
-* `Scala`
-* `Rust`
-* `Groovy`
+* `Spark`
+* `JDK` version 11
+* [`Oh-My-Posh Powershell themes`](https://github.com/JanDeDobbeleer/oh-my-posh)
+* Popular VS Code themes (GitHub, Atom One, Material Icons etc.)
 
 ## Customization
 Feel free to modify the `Dockerfile`, `devcontainer.json` or `requirements.txt` file to include any other tools or packages that you need for your development environment.

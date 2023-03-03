@@ -103,7 +103,10 @@
 				"akamud.vscode-theme-onedark",
 				"PKief.material-icon-theme",
 				"GitHub.github-vscode-theme",
-				"actboy168.tasks"
+				"actboy168.tasks",
+				"bastienboutonnet.vscode-dbt",
+				"innoverio.vscode-dbt-power-user",
+				"redhat.vscode-xml"
 			]
 		}
 	},

@@ -106,7 +106,9 @@
 				"actboy168.tasks",
 				"bastienboutonnet.vscode-dbt",
 				"innoverio.vscode-dbt-power-user",
-				"redhat.vscode-xml"
+				"redhat.vscode-xml",
+				"adpyke.vscode-sql-formatter",
+				"inferrinizzard.prettier-sql-vscode"
 			]
 		}
 	},

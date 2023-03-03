@@ -40,17 +40,30 @@ $ git clone https://github.com/MartyC-137/DataEng_devcontainer
   - `PySpark`
   - `PyArrow`
   - `Polars`
+  - `Prefect`
   - `Prefect 2.7.7` and all required Python dependencies
   - `confluent-kafka`
+  - `scikit-learn`
+  - `Snowpark`
+  - `ipykernel`
 * `Google Cloud SDK`
+* `Azure` CLI
+* `GitHub` CLI
+* `GitLens`
+* `GitHub` Pull Requests
 * `dbt-core`
   - `dbt-postgres`
   - `dbt-bigquery`
+* `dbt` extensions for VS Code
+* `Snowflake` for VS Code
+* `MS SQL Server` for VS Code
 * `Terraform`
-* `Jupyter Notebooks for VS Code`
+* `Jupyter Notebooks` for VS Code
 * `Docker`
 * `Spark`
 * `JDK` version 11
+* `XML` tools
+* `YAML` tools
 * [`Oh-My-Posh Powershell themes`](https://github.com/JanDeDobbeleer/oh-my-posh)
 * Popular VS Code themes (GitHub, Atom One, Material Icons etc.)
 

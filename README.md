@@ -40,8 +40,7 @@ $ git clone https://github.com/MartyC-137/DataEng_devcontainer
   - `PySpark`
   - `PyArrow`
   - `Polars`
-  - `Prefect`
-  - `Prefect 2.7.7` and all required Python dependencies
+  - `Prefect` and all required Python dependencies
   - `confluent-kafka`
   - `scikit-learn`
   - `Snowpark`
